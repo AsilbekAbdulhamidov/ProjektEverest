@@ -5,7 +5,7 @@ using Interview.Repostory;
 namespace Interview.Extation
 {
     public static class MiddleExtations
-    {
+    {//
         public static void AddService(this IServiceCollection services)
         {
             services.AddTransient<IInterviewerServices, InterviewerService>();
