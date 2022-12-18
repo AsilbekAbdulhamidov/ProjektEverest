@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Data.Models
+{
+    public class Interviewee //stajor
+    {
+       
+        public int Id { get; set; }
+        public string FullName { get; set; }    
+        public string Dagree { get; set; }
+        public string Experience { get; set; }
+        public string Number { get; set; }
+        public string ImageUrl { get; set; }
+        public Category Category { get; set; }
+
+      
+
+    }
+}
